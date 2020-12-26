@@ -7,35 +7,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-    crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/styles.css">
+    crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="./dist/css/main.min.css"> 
 </head>
 <body>
-    <header class="portfolio-header">
-        <div class="container">
+    <header >
+        <div class="header portfolio-header container">
             <!--логотип-->
             <nav>
-                <a class="logo" href="./index.html">Web<span>Studio</span></a>
+                <a class="logo" href="./index.html">Web<span class="logo-accent">Studio</span></a>
                 <!--навигация-сайта-->
                 <ul class="nav-list">
-                    <li class="item" ><a class="link" href="./index.html">студия</a></li>
-                    <li class="item" ><a class="link current" href="./portfolio.html">портфолио</a></li>
-                    <li class="item" ><a class="link" href="./contacts.html">контакты</a></li>
+                    <li class="nav-list-item" ><a class="nav-list-link" href="./index.html">студия</a></li>
+                    <li class="nav-list-item" ><a class="nav-list-link current" href="./portfolio.html">портфолио</a></li>
+                    <li class="nav-list-item" ><a class="nav-list-link" href="./contacts.html">контакты</a></li>
                 </ul>
             </nav>
             <!--контакты-->
-            <ul class="contacts">
-                <li class="item">
-                    <a class="link" href="mailto:info@devstudio.com">
+            <ul class="contacts-list">
+                <li class="contacts-list-item">
+                    <a class="contacts-list-link" href="mailto:info@devstudio.com">
                             <svg class="icon-envelope">
                                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
                             </svg>info@devstudio.com
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="tel:+380961111111">
+                <li class="contacts-list-item">
+                    <a class="contacts-list-link" href="tel:+380961111111">
                             <svg class="icon-smartphone">
                                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                             </svg>+38 096 111 11 11
@@ -50,16 +50,16 @@
             <div class="container">
             <!-- <h1>наши работы</h1> -->
             <ul class="filter">
-                <li class="item"><button class="button" type="button">Все</button></li>
-                <li class="item"><button class="button" type="button">Веб-сайты</button></li>
-                <li class="item"><button class="button" type="button">Приложения</button></li>
-                <li class="item"><button class="button" type="button">Дизайн</button></li>
-                <li class="item"><button class="button" type="button">Маркетинг</button></li>
+                <li class="filter-item"><button class="filter-button" type="button">Веб-сайты</button></li>
+                <li class="filter-item"><button class="filter-button" type="button">Приложения</button></li>
+                <li class="filter-item"><button class="filter-button" type="button">Дизайн</button></li>
+                <li class="filter-item"><button class="filter-button" type="button">Все</button></li>
+                <li class="filter-item"><button class="filter-button" type="button">Маркетинг</button></li>
             </ul>
         
-            <ul class="gallery">
-                <li class="item">
-                    <a class="link" href="#">
+            <ul class="gallery-list">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="#">
                         <div class="gallery-backdrop">
                             <img class="gallery-img" src="./images/project-1.jpg" alt="проект 1" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -73,8 +73,8 @@
                     </a>
         
                 </li>
-                <li class="item">
-                    <a class="link" href="#">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="#">
                         <div class="gallery-backdrop">
                             <img class="gallery-img" src="./images/project-2.jpg" alt="проект 2" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -87,8 +87,8 @@
                         </div> 
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="">
                         <div class="gallery-backdrop">
                             <img class="gallery-img" src="./images/project-3.jpg" alt="проект 3" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -102,8 +102,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="">
                         <div class="gallery-backdrop">
                             <img class="gallery-img" src="./images/project-4.jpg" alt="проект 4" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -117,8 +117,8 @@
                         </div> 
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="">
                         <div class="gallery-backdrop">
                         <img class="gallery-img" src="./images/project-5.jpg" alt="проект 5" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -132,8 +132,8 @@
                         </div> 
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="">
                         <div class="gallery-backdrop">
                             <img class="gallery-img" src="./images/project-6.jpg" alt="проект 6" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -147,8 +147,8 @@
                         </div> 
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="">
                         <div class="gallery-backdrop">
                             <img class="gallery-img" src="./images/project-7.jpg" alt="проект 7" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -162,8 +162,8 @@
                         </div> 
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="">
                         <div class="gallery-backdrop">
                             <img class="gallery-img" src="./images/project-8.jpg" alt="проект 8" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -177,8 +177,8 @@
                         </div> 
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="gallery-list-item">
+                    <a class="gallery-list-link" href="">
                         <div class="gallery-backdrop">
                             <img class="gallery-img" src="./images/project-9.jpg" alt="проект 9" width="370">
                             <p class="gallery-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -203,17 +203,17 @@
         <div class="container">
             <div class="address-block">
                 <!--логотип-->
-                <a class="logo" href="./index.html">Web<span>Studio</span></a>
+                <a class="logo" href="./index.html">Web<span class="logo-accent">Studio</span></a>
                 <!--адрес-->
                 <address>
                     <p class="map">г. Киев, пр-т Леси Украинки, 26</p>
-                    <a class="link" href="mailto:info@example.com">info@example.com</a>
-                    <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a class="address-link" href="mailto:info@example.com">info@example.com</a>
+                    <a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </address>
             </div>
             <!--соцсети-->
             <div class="social-block">
-                <b>присоединяйтесь</b>
+                <b class="social-block-title">присоединяйтесь</b>
                 <ul class="social-list">
                     <li class="social-item">
                         <a class="social-link" href="">
@@ -247,13 +247,13 @@
             </div>
             <!-- подписка -->
             <div class="subscription">
-                <b>Подпишитесь на рассылку</b>
-                <form action="#">
-                    <input type="email" name="email" placeholder="E-mail">
-                    <button type="submit"><span>Подписаться</span></button>
+                <b class="subscription-title">Подпишитесь на рассылку</b>
+                <form class="subscription-form" action="#">
+                    <input class="subscription-input" type="email" name="email" placeholder="E-mail">
+                    <button class="button" type="submit"><span class="button-text">Подписаться</span></button>
                 </form>
             </div>
-    
+            
         </div>
     </footer>
 </body>
