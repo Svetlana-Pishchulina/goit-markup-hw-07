@@ -9,8 +9,7 @@ Use a better box model (opinionated).
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /**
@@ -18,8 +17,7 @@ Use a more readable tab size (opinionated).
 */
 :root {
   -moz-tab-size: 4;
-  -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
 }
 
 /**
@@ -74,8 +72,7 @@ Text-level semantics
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 abbr[title] {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /**
@@ -270,24 +267,17 @@ summary {
 }
 
 .button, .hero-button, .button-modal-submit {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 2px;
   min-width: 200px;
   height: 50px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #ffffff;
   background-color: #2196f3;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -295,18 +285,12 @@ summary {
 }
 
 .team-social-link, .footer-social-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-social-link:hover, .footer-social-link:hover, .team-social-link:focus, .footer-social-link:focus {
@@ -334,7 +318,7 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff");
+  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -343,7 +327,7 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff");
+  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -352,7 +336,7 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../../fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff");
+  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -361,7 +345,7 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff");
+  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -370,7 +354,7 @@ summary {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../../fonts/raleway-v18-latin-regular.woff2") format("woff2"), url("../../fonts/raleway-v18-latin-regular.woff") format("woff");
+  src: local(""), url("../fonts/raleway-v18-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v18-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -379,7 +363,7 @@ summary {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../../fonts/raleway-v18-latin-700.woff2") format("woff2"), url("../../fonts/raleway-v18-latin-700.woff") format("woff");
+  src: local(""), url("../fonts/raleway-v18-latin-700.woff2") format("woff2"), url("../fonts/raleway-v18-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -435,22 +419,15 @@ img {
 }
 
 .header.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .portfolio-header {
   border-bottom: 1px solid #ececec;
-  -webkit-transition-property: border;
   transition-property: border;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-header:focus, .portfolio-header:hover {
@@ -458,14 +435,10 @@ img {
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -489,12 +462,9 @@ nav {
   letter-spacing: 0.02em;
   line-height: 1, 14;
   text-transform: capitalize;
-  -webkit-transition-property: color;
   transition-property: color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-link:hover, .nav-list-link:focus,
@@ -514,33 +484,22 @@ nav {
 }
 
 .contacts-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: auto;
 }
 
 .contacts-list-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition-property: color;
+  justify-content: space-between;
+  align-items: center;
   transition-property: color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-list-link:hover, .contacts-list-link:focus {
@@ -593,13 +552,6 @@ nav {
   padding-bottom: 200px;
   padding-top: 200px;
   text-align: center;
-  height: 600px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero-opt.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-opt.jpg);
-  background-color: #2f303a;
 }
 
 .overlay {
@@ -607,8 +559,7 @@ nav {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero-opt.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-opt.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-opt.jpg);
   background-color: #2f303a;
 }
 
@@ -630,8 +581,6 @@ nav {
 }
 
 .features-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -644,18 +593,12 @@ nav {
 }
 
 .icon-features-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: var(--background-color-2);
 }
 
@@ -695,14 +638,11 @@ nav {
 }
 
 .team-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .team-list-item {
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
   background-color: #ffffff;
@@ -742,8 +682,6 @@ nav {
 }
 
 .clients-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -752,26 +690,17 @@ nav {
 }
 
 .clients-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: #afb1b8;
-  -webkit-transition-property: color, border;
   transition-property: color, border;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover, .clients-link:focus {
@@ -820,8 +749,6 @@ nav {
 }
 
 .services-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -836,17 +763,11 @@ nav {
 .services-list-title {
   position: absolute;
   bottom: 0%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 70px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background: rgba(47, 48, 58, 0.8);
   color: #ffffff;
   font-weight: 700;
@@ -864,12 +785,9 @@ nav {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -879,58 +797,42 @@ nav {
 }
 
 .is-hidden.modal {
-  -webkit-transform: translate(-50%, -50%) scale(0.9);
-          transform: translate(-50%, -50%) scale(0.9);
+  transform: translate(-50%, -50%) scale(0.9);
 }
 
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   width: 528px;
   height: 581px;
   padding: 40px;
   background-color: #ffffff;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buton-modal-close {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-left: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .x-close {
   width: 11px;
   height: 11px;
-  -webkit-transition-property: fill;
   transition-property: fill;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buton-modal-close:hover .x-close {
@@ -979,12 +881,9 @@ nav {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  -webkit-transition-property: border-color;
   transition-property: border-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus {
@@ -996,30 +895,6 @@ nav {
   resize: none;
   height: 120px;
   padding-left: 16px;
-}
-
-.form-input.comment::-webkit-input-placeholder {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.167;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.form-input.comment:-ms-input-placeholder {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.167;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.form-input.comment::-ms-input-placeholder {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.167;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .form-input.comment::placeholder {
@@ -1036,12 +911,9 @@ nav {
   left: 12px;
   width: 18px;
   height: 18px;
-  -webkit-transition-property: fill;
   transition-property: fill;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus + .form-icons {
@@ -1067,12 +939,8 @@ nav {
 }
 
 .agreement-label {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -1086,18 +954,15 @@ nav {
   width: 16px;
   height: 15px;
   content: '';
-  background-image: url(../../images/icons/box-checkbox.svg);
+  background-image: url(../images/icons/box-checkbox.svg);
   background-size: contain;
-  -webkit-transition-property: background-image;
   transition-property: background-image;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked + .agreement-label::before {
-  background-image: url(../../images/icons/icon-check-opt-2.svg);
+  background-image: url(../images/icons/icon-check-opt-2.svg);
 }
 
 .agreement-label-circs {
@@ -1114,12 +979,8 @@ nav {
 }
 
 .footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  align-items: baseline;
 }
 
 .address-block {
@@ -1167,8 +1028,6 @@ nav {
 }
 
 .social-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1177,25 +1036,16 @@ nav {
 }
 
 .social-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transition-property: background-color;
+  align-items: center;
+  justify-content: center;
   transition-property: background-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover, .social-link:focus {
@@ -1220,8 +1070,6 @@ nav {
 }
 
 .subscription-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1231,16 +1079,13 @@ nav {
   padding: 15px 5px 15px 16px;
   margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: transparent;
   color: #ffffff;
 }
 
 .button-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1250,7 +1095,7 @@ nav {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(../../images/icons/symbol-defs-opt.svg);
+  background-image: url(../images/icons/symbol-defs-opt.svg);
 }
 
 .our-works {
@@ -1259,13 +1104,9 @@ nav {
 }
 
 .filter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .filter-item:not(:last-child) {
@@ -1273,11 +1114,8 @@ nav {
 }
 
 .gallery-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .gallery-list-item {
@@ -1296,19 +1134,13 @@ nav {
   display: inline-block;
   margin-top: 0px;
   margin-bottom: 0px;
-  -webkit-transition-property: -webkit-box-shadow;
-  transition-property: -webkit-box-shadow;
   transition-property: box-shadow;
-  transition-property: box-shadow, -webkit-box-shadow;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-list-link:hover, .gallery-list-link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .gallery-backdrop {
@@ -1330,21 +1162,16 @@ nav {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
-  -webkit-transform: translatey(100%);
-          transform: translatey(100%);
-  -webkit-transition-property: opacity translatey;
+  transform: translatey(100%);
   transition-property: opacity translatey;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-list-link:hover .gallery-overlay,
 .gallery-list-link:focus .gallery-overlay {
   opacity: 1;
-  -webkit-transform: translatey(0%);
-          transform: translatey(0%);
+  transform: translatey(0%);
 }
 
 .card-content {
@@ -1397,24 +1224,18 @@ nav {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:hover, .filter-button:focus {
   color: #ffffff;
   background-color: #2196f3;
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .social-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1428,12 +1249,9 @@ nav {
 
 .team-social-link {
   color: #afb1b8;
-  -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover, .team-social-link:focus {
@@ -1442,12 +1260,9 @@ nav {
 
 .footer-social-link {
   background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition-property: background-color;
   transition-property: background-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-icon {

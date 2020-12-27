@@ -184,7 +184,8 @@
         width: 16px;
         height: 15px;
         content: '';
-        background-image: url(../../images/icons/box-checkbox.svg);
+        // background-image: url(../../images/icons/box-checkbox.svg);
+        background-image: url(../images/icons/box-checkbox.svg);
         background-size: contain;
       
         transition-property: background-image;
@@ -195,7 +196,8 @@
   }
   }
   .checkbox:checked + .agreement-label::before {
-    background-image: url(../../images/icons/icon-check-opt-2.svg);
+    // background-image: url(../../images/icons/icon-check-opt-2.svg);
+    background-image: url(../images/icons/icon-check-opt-2.svg);
   }
  
   .agreement-label-circs {
